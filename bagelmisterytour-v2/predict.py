@@ -9,7 +9,7 @@ class Predictor(BasePredictor):
     def setup(self) -> None:
         """Load the model into memory to make running multiple predictions efficient"""
         self.llm = Llama(
-            "./umbra-moe-4x10.7.gguf",
+            "./BagelMIsteryTour-v2-8x7B.Q4_K_M.gguf",
             n_gpu_layers=-1,
             n_ctx=2048,
         )

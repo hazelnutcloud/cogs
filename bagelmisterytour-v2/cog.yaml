@@ -35,4 +35,4 @@ build:
 # predict.py defines how predictions are run on your model
 predict: "predict.py:Predictor"
 
-image: "r8.im/hazelnutcloud/umbra-moe-4x10.7"
+image: "r8.im/hazelnutcloud/bagelmisterytour-v2-8x7b"
